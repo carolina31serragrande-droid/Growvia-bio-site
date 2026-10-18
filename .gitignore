@@ -1,0 +1,46 @@
+# Dependências
+node_modules/
+
+# Saídas de build e caches
+.vercel/
+.output/
+.nitro/
+.tanstack/
+dist/
+*.tsbuildinfo
+
+# Variáveis de ambiente e segredos (use .env.example como modelo)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testes e relatórios
+coverage/
+playwright-report/
+test-results/
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Resíduos da ferramenta de criação (Grok). Rede de segurança caso sejam copiados de volta.
+.grok/
+AGENTS.md
+startup.sh
+.node_modules.lock
+artifacts/
+attachments/
+screenshots/
+
+# Vídeo pesado: o GitHub recusa arquivos acima de 100 MB.
+# Se for hospedar o vídeo fora do Git, descomente a linha abaixo.
+# public/videos/*.mp4
